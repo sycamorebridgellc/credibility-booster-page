@@ -6,7 +6,7 @@ const criteria = [
   "Strong, loyal customer base",
   "Owner looking to retire or transition",
   "Dedicated employees and healthy culture",
-  "Located in [your region / anywhere in the U.S.]",
+  "Located in the greater Chicagoland area",
 ];
 
 const CriteriaSection = () => {
