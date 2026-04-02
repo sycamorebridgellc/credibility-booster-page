@@ -15,6 +15,7 @@ const HeroSection = () => {
     <section className="relative min-h-[80vh] flex items-center justify-center" style={{ background: "var(--hero-gradient)" }}>
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDE4YzEuMTA1IDAgMi0uODk1IDItMnMtLjg5NS0yLTItMi0yIC44OTUtMiAyIC44OTUgMiAyIDJ6bTAtMjBjMS4xMDUgMCAyLS44OTUgMi0ycy0uODk1LTItMi0yLTIgLjg5NS0yIDIgLjg5NSAyIDIgMnptMCAyMGMxLjEwNSAwIDItLjg5NSAyLTJzLS44OTUtMi0yLTItMiAuODk1LTIgMiAuODk1IDIgMiAyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-30" />
       <div className="container relative z-10 text-center px-6">
+        <img src={logo} alt="Sycamore Bridge" className="h-28 md:h-36 mx-auto mb-8" />
         <p className="text-primary-foreground/60 uppercase tracking-[0.25em] text-sm font-medium mb-6">
           Entrepreneurship Through Acquisition
         </p>
