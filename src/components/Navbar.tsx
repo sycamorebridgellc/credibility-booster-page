@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "@/assets/logo.png";
+
 
 const navLinks = [
   { label: "About", href: "about" },
@@ -29,8 +29,13 @@ const Navbar = () => {
       }`}
     >
       <div className="container px-6 flex items-center justify-between h-16">
-        <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="flex items-center gap-2">
-          <img src={logo} alt="Sycamore Bridge" className="h-10" />
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className={`text-lg font-serif font-semibold transition-colors ${
+            scrolled ? "text-foreground" : "text-primary-foreground"
+          }`}
+        >
+          Sycamore Bridge
         </button>
         <div className="flex items-center gap-8">
           {navLinks.map((link) => (
