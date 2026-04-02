@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const HeroSection = () => {
   const scrollToAbout = () => {
