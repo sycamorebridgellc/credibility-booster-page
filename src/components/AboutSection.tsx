@@ -4,22 +4,22 @@ const credentials = [
   {
     icon: GraduationCap,
     title: "Education",
-    description: "MBA, Northwestern University — Kellogg School of Management",
+    description: "MBA candidate at Northwestern University's Kellogg School of Management, combining financial discipline with hands-on leadership.",
   },
   {
     icon: Briefcase,
     title: "Professional Experience",
-    description: "[X] years in [industry/role], with expertise in operations, finance, and strategy.",
+    description: "Background spanning Fortune 500 companies and tech startups, with expertise in improving operations and managing financial growth.",
   },
   {
     icon: Target,
-    title: "ETA Focus",
-    description: "Self-funded search targeting businesses with $1M–$5M in revenue and strong fundamentals.",
+    title: "Search Focus",
+    description: "Seeking one Chicagoland company to lead and manage for the long term — not a portfolio play, but a personal commitment.",
   },
   {
     icon: Users,
     title: "Leadership Philosophy",
-    description: "Hands-on operator committed to empowering teams and honoring the culture you've built.",
+    description: "Growth comes from disciplined, daily improvements — not radical changes. The real value of a company is built by the people who show up every day.",
   },
 ];
 
@@ -28,14 +28,22 @@ const AboutSection = () => {
     <section id="about" className="py-24 bg-background">
       <div className="container px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <p className="text-gold uppercase tracking-[0.2em] text-sm font-medium mb-4">About Me</p>
+          <p className="text-gold uppercase tracking-[0.2em] text-sm font-medium mb-4">About Ryan</p>
           <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-6">
             A Dedicated Buyer for Your Business
           </h2>
+          <p className="text-muted-foreground text-lg leading-relaxed mb-4">
+            Ryan's background is rooted in the practical side of business — improving operations 
+            and managing financial growth. Having worked within both Fortune 500 companies and 
+            tech-based startups, he has developed a straightforward approach to identifying 
+            efficiencies and driving steady results.
+          </p>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            I'm an entrepreneur pursuing the acquisition of a single, well-run small business. 
-            My goal is not to flip or restructure — it's to step in as a long-term operator, 
-            preserve what makes your business special, and help it reach its next chapter of growth.
+            Ryan and his wife live in the Chicagoland area, and his search is motivated by a 
+            desire to remain close to family and his local community. He is committed to building 
+            genuine relationships with the team and ensuring a smooth, professional handoff — 
+            offering a steady hand for day-to-day operations and a focus on maintaining the 
+            stability and health of the business you've built.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
