@@ -18,7 +18,7 @@ const HeroSection = () => {
           Entrepreneurship Through Acquisition
         </p>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-primary-foreground mb-6 leading-tight">
-          [Your Name]
+          Ryan Aurand
         </h1>
         <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-light">
           Seeking to acquire and operate a small-to-medium business.

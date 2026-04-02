@@ -4,7 +4,7 @@ const credentials = [
   {
     icon: GraduationCap,
     title: "Education",
-    description: "[Your Degree], [Your University]",
+    description: "MBA, Northwestern University — Kellogg School of Management",
   },
   {
     icon: Briefcase,
