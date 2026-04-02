@@ -35,7 +35,7 @@ const criteria = [
 
 const CriteriaSection = () => {
   return (
-    <section className="py-24" style={{ background: "var(--section-gradient)" }}>
+    <section id="criteria" className="py-24" style={{ background: "var(--section-gradient)" }}>
       <div className="container px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-gold uppercase tracking-[0.2em] text-sm font-medium mb-4">
