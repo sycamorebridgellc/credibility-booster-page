@@ -82,8 +82,8 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground font-sans mb-1">Email Directly</h3>
-                <a href="mailto:you@example.com" className="text-muted-foreground hover:text-gold transition-colors">
-                  you@example.com
+                <a href="mailto:ryan@sycamorebridgellc.com" className="text-muted-foreground hover:text-gold transition-colors">
+                  ryan@sycamorebridgellc.com
                 </a>
               </div>
             </div>
@@ -94,7 +94,7 @@ const ContactSection = () => {
               <div>
                 <h3 className="font-semibold text-foreground font-sans mb-1">Schedule a Call</h3>
                 <a
-                  href="https://calendly.com"
+                  href="https://calendly.com/ryan-aurand-kellogg/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-gold transition-colors"
