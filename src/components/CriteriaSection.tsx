@@ -1,12 +1,36 @@
-import { CheckCircle } from "lucide-react";
+import { DollarSign, Building2, ArrowRightLeft } from "lucide-react";
 
 const criteria = [
-  "Revenue between $1M and $5M",
-  "Profitable with consistent cash flow",
-  "Strong, loyal customer base",
-  "Owner looking to retire or transition",
-  "Dedicated employees and healthy culture",
-  "Located in the greater Chicagoland area",
+  {
+    icon: DollarSign,
+    title: "Financial",
+    points: [
+      "At least five years of consistent profitability",
+      "Annual revenues between $2M and $10M",
+      "Cash flows in the $500K to $2M range",
+    ],
+  },
+  {
+    icon: Building2,
+    title: "Business Characteristics",
+    points: [
+      "Founder or family-owned, based in Chicagoland",
+      "Reputation for quality and reliability",
+      "Significant recurring revenues",
+      "Strong, tenured management team",
+      "Loyal customer base — no single-client dependency",
+    ],
+  },
+  {
+    icon: ArrowRightLeft,
+    title: "Transition Opportunity",
+    points: [
+      "Owner seeking retirement or a reduced daily role",
+      "Looking for a dedicated successor, not a financial buyer",
+      "Commitment to preserving culture and day-to-day operations",
+      "Professional handoff ensuring stability for employees and customers",
+    ],
+  },
 ];
 
 const CriteriaSection = () => {
@@ -18,18 +42,28 @@ const CriteriaSection = () => {
             Acquisition Criteria
           </p>
           <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-6">
-            What I'm Looking For
+            What We're Looking For
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            I'm looking for a business with a strong foundation where I can add value 
-            as a hands-on operator. Here's what I typically look for:
+            We seek healthy, established companies where we can step in as a long-term
+            operator — preserving what makes the business special while driving sustainable growth.
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
-          {criteria.map((item) => (
-            <div key={item} className="flex items-start gap-3 p-4 bg-card rounded-lg border border-border">
-              <CheckCircle className="h-5 w-5 text-gold flex-shrink-0 mt-0.5" />
-              <span className="text-foreground font-sans">{item}</span>
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          {criteria.map((category) => (
+            <div key={category.title} className="p-6 bg-card rounded-lg border border-border">
+              <div className="w-12 h-12 rounded-lg bg-primary/5 flex items-center justify-center mb-4">
+                <category.icon className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-semibold text-foreground font-sans text-lg mb-4">{category.title}</h3>
+              <ul className="space-y-3">
+                {category.points.map((point) => (
+                  <li key={point} className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed">
+                    <span className="text-gold mt-1.5 flex-shrink-0">•</span>
+                    {point}
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
