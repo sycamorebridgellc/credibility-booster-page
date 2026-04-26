@@ -59,8 +59,8 @@ const CriteriaSection = () => {
               <ul className="space-y-3">
                 {category.points.map((point) => (
                   <li key={point} className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed">
-                    <span className="text-gold mt-1.5 flex-shrink-0">•</span>
-                    {point}
+                    <span className="text-gold flex-shrink-0 leading-relaxed">•</span>
+                    <span>{point}</span>
                   </li>
                 ))}
               </ul>
