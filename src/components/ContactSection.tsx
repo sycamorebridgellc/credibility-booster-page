@@ -105,8 +105,8 @@ const ContactSection = () => {
             </div>
             <div className="p-5 rounded-lg bg-muted border border-border">
               <p className="text-sm text-muted-foreground italic leading-relaxed">
-                "Every conversation is confidential. I respect the sensitivity of exploring 
-                a business transition and will never share your information."
+                Every conversation is confidential. I respect the sensitivity of exploring 
+                a business transition and will never share your information.
               </p>
             </div>
           </div>
