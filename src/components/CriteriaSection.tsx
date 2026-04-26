@@ -5,9 +5,9 @@ const criteria = [
     icon: DollarSign,
     title: "Financial",
     points: [
-      "At least five years of consistent profitability",
-      "Annual revenues between $2M and $10M",
-      "Cash flows in the $500K to $2M range",
+      "Five years of consistent profitability",
+      "Revenues between $2M and $10M",
+      "Cash flows between $500K and $2M",
     ],
   },
   {
