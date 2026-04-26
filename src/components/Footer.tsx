@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="py-8 border-t border-border bg-card">
       <div className="container px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Ryan Aurand. All rights reserved.
+          © {new Date().getFullYear()} Sycamore Bridge LLC. All rights reserved.
         </p>
         <a
           href="https://www.linkedin.com/company/sycamore-bridge/"
