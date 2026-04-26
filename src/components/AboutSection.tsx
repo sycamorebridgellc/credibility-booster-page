@@ -43,8 +43,8 @@ const AboutSection = () => {
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-4">
               Ryan's background is rooted in the practical side of business — improving operations 
-              and managing financial growth. Having worked within both Fortune 500 companies and 
-              tech-based startups, he has developed a straightforward approach to identifying 
+              and managing financial growth. Having worked within operating teams at both Fortune 500 
+              companies and smaller, scrappy startups, he has developed a straightforward approach to identifying 
               efficiencies and driving steady results.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
