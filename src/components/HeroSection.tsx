@@ -32,8 +32,7 @@ const HeroSection = () => {
           className="h-32 md:h-44 mx-auto mb-8 opacity-80 mix-blend-screen"
         />
         <p className="text-primary-foreground/85 text-lg md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed font-light font-serif">
-          Seeking to acquire and operate a small-to-medium business.
-          Committed to preserving legacies while driving sustainable growth.
+          Seeking to acquire and lead a Chicagoland company. We offer a straightforward exit and a focus on long-term stability.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="gold" size="lg" onClick={scrollToContact}>
