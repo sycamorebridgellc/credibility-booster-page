@@ -23,13 +23,20 @@ const HeroSection = () => {
       />
       <div
         className="absolute inset-0"
-        style={{ background: "linear-gradient(135deg, hsl(217 50% 18% / 0.88), hsl(217 45% 12% / 0.8))" }}
+        style={{ background: "linear-gradient(135deg, hsl(217 50% 20% / 0.82), hsl(217 45% 14% / 0.78))" }}
+      />
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(ellipse at center, hsl(217 50% 10% / 0.45) 0%, transparent 65%)",
+        }}
       />
       <div className="container relative z-10 text-center px-6">
         <img
           src={logo}
           alt="Sycamore Bridge"
-          className="h-32 md:h-44 mx-auto mb-8 opacity-80 mix-blend-screen"
+          className="h-40 md:h-56 mx-auto mb-8 mix-blend-overlay opacity-60 [filter:sepia(0.4)_brightness(1.4)_contrast(0.9)]"
         />
         <p className="text-primary-foreground/85 text-lg md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed font-light font-serif">
           Seeking to acquire and operate a small-to-medium business.
