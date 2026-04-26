@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import logo from "@/assets/logo.png";
+import heroSkyline from "@/assets/hero-skyline.jpg";
 
 const HeroSection = () => {
   const scrollToAbout = () => {
@@ -12,8 +13,18 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center" style={{ background: "var(--hero-gradient)" }}>
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDE4YzEuMTA1IDAgMi0uODk1IDItMnMtLjg5NS0yLTItMi0yIC44OTUtMiAyIC44OTUgMiAyIDJ6bTAtMjBjMS4xMDUgMCAyLS44OTUgMi0ycy0uODk1LTItMi0yLTIgLjg5NS0yIDIgLjg5NSAyIDIgMnptMCAyMGMxLjEwNSAwIDItLjg5NSAyLTJzLS44OTUtMi0yLTItMiAuODk1LTIgMiAuODk1IDIgMiAyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-30" />
+    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+      <img
+        src={heroSkyline}
+        alt="Chicago skyline at dusk"
+        width={1920}
+        height={1080}
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div
+        className="absolute inset-0"
+        style={{ background: "linear-gradient(135deg, hsl(217 50% 18% / 0.85), hsl(217 45% 12% / 0.75))" }}
+      />
       <div className="container relative z-10 text-center px-6">
         <img src={logo} alt="Sycamore Bridge" className="h-28 md:h-36 mx-auto mb-8" />
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-primary-foreground mb-6 leading-tight">
