@@ -3,14 +3,14 @@ import headshot from "@/assets/headshot.png";
 
 const credentials = [
   {
-    icon: GraduationCap,
-    title: "Education",
-    description: "MBA candidate at Northwestern University's Kellogg School of Management, combining financial discipline with hands-on leadership.",
-  },
-  {
     icon: Briefcase,
     title: "Professional Experience",
     description: "Background spanning Fortune 500 companies and tech startups, with expertise in improving operations and managing financial growth.",
+  },
+  {
+    icon: GraduationCap,
+    title: "Education",
+    description: "MBA candidate at Northwestern University's Kellogg School of Management, combining financial discipline with hands-on leadership.",
   },
   {
     icon: Target,
