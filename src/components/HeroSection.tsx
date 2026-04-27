@@ -29,7 +29,7 @@ const HeroSection = () => {
         <img
           src={logo}
           alt="Sycamore Bridge"
-          className="h-32 md:h-44 mx-auto mb-8 opacity-80 mix-blend-screen"
+          className="h-32 md:h-44 mx-auto mb-8"
         />
         <p className="text-primary-foreground/85 text-lg md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed font-light font-serif">
           Seeking to acquire and lead a Chicagoland company. We offer a straightforward exit and a focus on long-term stability.
