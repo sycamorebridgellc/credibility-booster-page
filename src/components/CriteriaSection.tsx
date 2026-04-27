@@ -14,7 +14,7 @@ const criteria = [
     icon: Building2,
     title: "Business Characteristics",
     points: [
-      "Founder or family-owned, based in Chicagoland",
+      "Founder or family-owned, within 60 miles of Chicago",
       "Reputation for quality and reliability",
       "Significant recurring revenues",
       "Strong, tenured management team",
