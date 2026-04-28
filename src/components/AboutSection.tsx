@@ -52,7 +52,7 @@ const AboutSection = () => {
               desire to remain close to family and his local community. He is committed to building 
               genuine relationships with the team and ensuring a smooth, professional handoff — 
               offering a steady hand for day-to-day operations and a focus on maintaining the 
-              stability and health of the business you've built.
+              stability and health of the business.
             </p>
           </div>
         </div>
