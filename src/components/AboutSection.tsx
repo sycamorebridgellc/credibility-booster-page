@@ -42,10 +42,10 @@ const AboutSection = () => {
               A Dedicated Buyer for Your Business
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-              Ryan's background is rooted in the practical side of business — improving operations 
-              and managing financial growth. Having worked within operating teams at both Fortune 500 
-              companies and smaller startups, he has developed a straightforward approach to identifying 
-              efficiencies and driving steady results.
+              Ryan's background is rooted in the practical side of business—specializing in 
+              operational turnarounds, restructuring, and stabilizing distressed organizations. 
+              Having worked within operating teams at both Fortune 500 companies and smaller startups, 
+              he has developed a straightforward approach to identifying efficiencies and driving steady results.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
               Ryan and his wife live in the Chicagoland area, and his search is motivated by a 
