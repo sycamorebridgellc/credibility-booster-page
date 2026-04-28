@@ -33,7 +33,7 @@ const AboutSection = () => {
             <img
               src={headshot}
               alt="Ryan Aurand"
-              className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover object-[52%_center] border-4 border-border shadow-lg"
+              className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover object-[47%_center] border-4 border-border shadow-lg"
             />
           </div>
           <div className="text-center md:text-left">
