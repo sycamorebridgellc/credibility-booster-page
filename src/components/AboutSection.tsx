@@ -10,7 +10,7 @@ const credentials = [
   {
     icon: GraduationCap,
     title: "Education",
-    description: "MBA candidate at Northwestern University's Kellogg School of Management, combining financial discipline with hands-on leadership.",
+    description: "MBA from Northwestern University's Kellogg School of Management, concentrating on Marketing and Entrepreneurship.",
   },
   {
     icon: Target,
