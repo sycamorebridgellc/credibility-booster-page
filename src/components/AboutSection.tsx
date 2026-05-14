@@ -19,8 +19,8 @@ const credentials = [
   },
   {
     icon: Users,
-    title: "Leadership Philosophy",
-    description: "Growth comes from disciplined, daily improvements — not radical changes. The real value of a company is built by the people who show up every day.",
+    title: "Operating Philosophy",
+    description: "Growth comes from disciplined, daily improvements — not radical changes. I believe a company thrives when you prioritize a supportive environment for employees and exceptional service for customers.",
   },
 ];
 
