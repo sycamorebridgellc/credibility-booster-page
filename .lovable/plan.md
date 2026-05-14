@@ -1,6 +1,6 @@
-I’ll update the About Ryan headshot positioning so the face appears more centered in the circular frame.
+Update first-person pronouns on the landing page from "We/We're/we" to "I/I'm/I" for consistency with the personal, individual-focused tone.
 
-Technical detail:
-- In `src/components/AboutSection.tsx`, change the current image object-position from `object-[52%_center]` back toward center, likely `object-[46%_center]` or `object-[48%_center]`, to undo part of the previous rightward shift while keeping the face slightly better centered than the earlier setting.
-
-After the change, I’ll visually check the About Ryan section in the preview and fine-tune if needed.
+Changes:
+1. **HeroSection.tsx**: Change "We offer" to "I offer" in the tagline.
+2. **CriteriaSection.tsx**: Change "What We're Looking For" to "What I'm Looking For" in the section heading.
+3. **CriteriaSection.tsx**: Change "We seek healthy, established companies where we can step in" to "I seek healthy, established companies where I can step in" in the subheading.

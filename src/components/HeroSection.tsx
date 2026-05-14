@@ -32,7 +32,7 @@ const HeroSection = () => {
           className="h-40 md:h-56 mx-auto mb-8"
         />
         <p className="text-primary-foreground/85 text-lg md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed font-light font-serif">
-          Seeking to acquire and lead a Chicagoland company. We offer a straightforward exit and a focus on long-term stability.
+          Seeking to acquire and lead a Chicagoland company. I offer a straightforward exit and a focus on long-term stability.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="gold" size="lg" onClick={scrollToContact}>

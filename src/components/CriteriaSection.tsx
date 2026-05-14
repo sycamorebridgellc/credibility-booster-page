@@ -42,10 +42,10 @@ const CriteriaSection = () => {
             Acquisition Criteria
           </p>
           <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-6">
-            What We're Looking For
+            What I'm Looking For
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            We seek healthy, established companies where we can step in as a long-term
+            I seek healthy, established companies where I can step in as a long-term
             operator — preserving what makes the business special while driving sustainable growth.
           </p>
         </div>
