@@ -10,7 +10,7 @@ const credentials = [
   {
     icon: GraduationCap,
     title: "Education",
-    description: "MBA from Northwestern University's Kellogg School of Management, concentrating on Marketing and Entrepreneurship.",
+    description: "MBA from Northwestern University and Bachelor's Degree in Finance from the University of Illinois.",
   },
   {
     icon: Target,
