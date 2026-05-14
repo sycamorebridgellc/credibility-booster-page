@@ -15,7 +15,7 @@ const credentials = [
   {
     icon: Target,
     title: "Search Focus",
-    description: "Seeking one Chicagoland company to lead and manage for the long term — not a portfolio play, but a personal commitment.",
+    description: "Seeking to buy and lead one Chicagoland small business for the long term. I am looking for a single opportunity where I can support a dedicated team and carry forward the culture you've built.",
   },
   {
     icon: Users,
