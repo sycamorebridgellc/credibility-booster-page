@@ -31,7 +31,7 @@ const AboutSection = () => {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12 mb-16">
           <div className="flex-shrink-0">
             <img
-              src={headshot}
+              src={headshot.url}
               alt="Ryan Aurand"
               className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover object-[47%_center] border-4 border-border shadow-lg"
             />
