@@ -1,5 +1,5 @@
 import { Briefcase, GraduationCap, Target, Users } from "lucide-react";
-import headshot from "@/assets/headshot.png.asset.json";
+import headshot from "@/assets/headshot.png";
 
 const credentials = [
   {
